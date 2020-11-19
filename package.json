@@ -1,0 +1,23 @@
+{
+  "name": "a11y-slides",
+  "description": "Deutsche Bahn - Styleguide",
+  "version": "1.0.0",
+  "author": "Lars Wittenberg",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larswittenberg/a11y-slides"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mdx-deck": "4.0.0",
+    "theme-ui": "^0.3.1"
+  },
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "help": "mdx-deck",
+    "pdf": "mdx-deck pdf deck.mdx"
+  }
+}
