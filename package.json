@@ -3,7 +3,7 @@
   "description": "Deutsche Bahn - Styleguide",
   "version": "1.0.0",
   "author": "Lars Wittenberg",
-  "homepage": "",
+  "homepage": "https://a11y-slides.vercel.app/",
   "repository": {
     "type": "git",
     "url": "https://github.com/larswittenberg/a11y-slides"

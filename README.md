@@ -2,9 +2,11 @@
 
 German presentation on the topic "Accessibility
 
-Based on [mdx-deck](https://github.com/jxnblk/mdx-deck)
+[Live Version](https://a11y-slides.vercel.app/)
 
 ![screenshot](screenshot.png)
+
+Based on [mdx-deck](https://github.com/jxnblk/mdx-deck)
 
 ## Keyboard Shortcuts
 
