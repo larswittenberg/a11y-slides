@@ -4,6 +4,8 @@ German presentation on the topic "Accessibility
 
 Based on [mdx-deck](https://github.com/jxnblk/mdx-deck)
 
+![screenshot](screenshot.png)
+
 ## Keyboard Shortcuts
 
 - Option + P == Toggle Presenter Mode
