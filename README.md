@@ -14,6 +14,10 @@ Based on [mdx-deck](https://github.com/jxnblk/mdx-deck)
 - Option + O == Toggle Overview Mode
 - Option + G == Toggle Grid Mode
 
+## Print / PDF Export
+
+navigate to `/print` to print as PDF from your browser.
+
 ## Helpful Links
 
 - [https://github.com/josefaidt/mdx-deck-theme-garlic](https://github.com/josefaidt/mdx-deck-theme-garlic)
