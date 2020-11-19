@@ -2,7 +2,7 @@
 
 German presentation on the topic "Accessibility
 
-[Live Version](https://a11y-slides.vercel.app/)
+[https://a11y-slides.vercel.app/](https://a11y-slides.vercel.app/)
 
 ![screenshot](screenshot.png)
 
