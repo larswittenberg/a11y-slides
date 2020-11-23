@@ -8,6 +8,10 @@ German presentation on the topic "Accessibility
 
 Based on [mdx-deck](https://github.com/jxnblk/mdx-deck)
 
+## Start Dev Sever
+
+`yarn start` shows Slides on [localhost](http://localhost:8000)
+
 ## Keyboard Shortcuts
 
 - Option + P == Toggle Presenter Mode
