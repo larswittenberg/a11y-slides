@@ -1,6 +1,6 @@
 {
   "name": "a11y-slides",
-  "description": "Deutsche Bahn - Styleguide",
+  "description": "German presentation on the topic Accessibilit",
   "version": "1.0.0",
   "author": "Lars Wittenberg",
   "homepage": "https://a11y-slides.vercel.app/",
@@ -11,13 +11,15 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "mdx-deck": "4.0.0",
-    "theme-ui": "^0.3.1"
+    "theme-ui": "^0.15.3"
   },
   "scripts": {
     "start": "mdx-deck deck.mdx",
     "build": "mdx-deck build deck.mdx",
     "help": "mdx-deck",
     "pdf": "mdx-deck pdf deck.mdx"
+  },
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
   }
 }
