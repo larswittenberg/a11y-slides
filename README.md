@@ -22,8 +22,13 @@ Based on [mdx-deck](https://github.com/jxnblk/mdx-deck)
 
 navigate to `/print` to print as PDF from your browser.
 
-## Helpful Links
+## Helpful Links for mdx-deck
 
 - [https://github.com/josefaidt/mdx-deck-theme-garlic](https://github.com/josefaidt/mdx-deck-theme-garlic)
 - [https://medium.com/@jsilvafour/a-laymans-guide-to-mdx-decks-36a6b0587095](https://medium.com/@jsilvafour/a-laymans-guide-to-mdx-decks-36a6b0587095)
 - [https://github.com/SaraVieira/99-problems-graphql-aint-one/blob/master/deck.mdx](https://github.com/SaraVieira/99-problems-graphql-aint-one/blob/master/deck.mdx)
+
+## Intresting links for the A11y topic
+
+* [Barrierefreiheit in der Praxis](https://woerter.de/talks/a11y-probleme/slides.pdf)
+* [The WebAIM Million](https://webaim.org/projects/million/)
