@@ -1,5 +1,6 @@
 ---
 marp: true
+title: Barrierefreiheit - Ein Einstieg ins Thema
 theme: gaia
 class: lead
 paginate: true
@@ -7,26 +8,16 @@ backgroundColor: #000
 color: #fff
 ---
 
-import screenreader from './videos/NVDA-Screenreader-Tim-Berners-Lee-W3C.mp4';
-import screenreadercover from './videos/NVDA-Screenreader-Tim-Berners-Lee-W3C_cover.png';
+<style>
+section::after {
+	content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+	font-size: 50%;
+}
 
-import eu2102website from './images/eu2102-website.png';
-
-import examplepdfinhaltsverzeichnis from './images/examplepdf-inhaltsverzeichnis.png';
-import examplepdftext1 from './images/examplepdf-text1.png';
-import examplepdftext2 from './images/examplepdf-text2.png';
-import examplepdflayout1 from './images/examplepdf-layout1.png';
-import examplepdflayout2 from './images/examplepdf-layout2.png';
-
-import examplealtattributes1 from './images/example-altattributes1.png';
-import examplealtattributes2 from './images/example-altattributes2.png';
-import examplecontrast from './images/example-contrast.png';
-import exampledisabledstyles from './images/example-disabledstyles.png';
-import examplefocus from './images/example-focus.png';
-import exampleform from './images/example-form.png';
-import exampleheadings from './images/example-headings.png';
-import examplelandmarks from './images/example-landmarks.png';
-import exampletextabstaende from './images/example-textabstaende.png';
+a {
+font-size: 60%;
+}
+</style>
 
 # Barrierefreiheit
 
@@ -34,7 +25,7 @@ Ein Einstieg ins Thema
 
 ---
 
-# Gliederung
+## Gliederung
 
 1. Der Begriff Barrierefreiheit
 2. Wer ist betroffen?
@@ -42,22 +33,24 @@ Ein Einstieg ins Thema
 4. WCAG
 5. Barrierefreie PDF
 6. Beispiele
+7. BITV-Test
+8. Tools
 
 ---
 
-# 1. Der Begriff Barrierefreiheit
+## 1. Der Begriff Barrierefreiheit
 
 ---
 
-# Barrierefreiheit
+## Barrierefreiheit
 
-## Was verbirgt sich hinter dem Begriff?
+### Was verbirgt sich hinter dem Begriff?
 
 Ideen?
 
 ---
 
-# Barrierefreiheit
+## Barrierefreiheit
 
 > Barrierefreiheit bezeichnet eine Gestaltung der Umwelt dergestalt, dass sie auch von Menschen mit Beeinträchtigungen ohne zusätzliche Hilfen genutzt und wahrgenommen werden können.
 
@@ -75,9 +68,9 @@ Ideen?
 
 ---
 
-# Barrierefreiheit
+## Barrierefreiheit
 
-- engl. [Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility?retiredLocale=de) (oft abgekürzt als: A11y)
+- engl. Accessibility (oft abgekürzt als: A11y)
 - leichte, einfache Zugänglichkeit
 - Ursprung im Bauwesen
 - Barrierefreiheit ≠ behindertengerecht
@@ -88,7 +81,7 @@ Ideen?
 
 ---
 
-# Barrierefreiheit im Alltag
+## Barrierefreiheit im Alltag
 
 - Aufzug oder Rampe statt Treppen
 - breite Türen und absenkbare Busse
@@ -99,18 +92,7 @@ Ideen?
 
 ---
 
-# Gliederung
-
-1. Der Begriff Barrierefreiheit
-2. **>> Wer ist betroffen? <<**
-3. Barrierefreies Internet
-4. WCAG
-5. Barrierefreie PDF
-6. Beispiele
-
----
-
-# 2. Wer ist betroffen
+## 2. Wer ist betroffen
 
 ---
 
@@ -120,15 +102,13 @@ Wie viele Menschen in Stuttgart haben einen Schwer&shy;behinderten&shy;ausweis?
 
 Wie viele Menschen in Stuttgart haben einen Schwer&shy;behinderten&shy;ausweis?
 
-# 47.907
-
-<style scoped>a { font-size: 60%;}</style>
+47.907
 
 [Quelle](https://www.stuttgart.de/service/aktuelle-meldungen/oktober-2020/beauftragte-fuer-die-belange-von-menschen-mit-behinderung-stellt-jahresbericht-2019-vor.php)
 
 ---
 
-# Wer ist betroffen
+## Wer ist betroffen
 
 7,9 Millionen schwerbehinderte Menschen in Deutschland (2019)
 
@@ -136,19 +116,15 @@ mind. 50 % Behinderungsgrad + gültiger Ausweis
 
 Aber nicht alle haben Nutzungsschwierigkeiten im Internet
 
-<style scoped>a { font-size: 60%;}</style>
-
 [Quelle](https://www.destatis.de/DE/Presse/Pressemitteilungen/2020/06/PD20_230_227.html)
 
 ---
 
-# Wer ist betroffen
+## Wer ist betroffen
 
-## 1. Blinde Menschen
+### Blinde Menschen
 
 🇩🇪 ~ 72.000
-
-<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://www.rehadat-statistik.de/statistiken/behinderung/behinderungsarten/blindheit-und-sehbehinderung)
 
@@ -156,69 +132,61 @@ Aber nicht alle haben Nutzungsschwierigkeiten im Internet
 
 # Wer ist betroffen
 
-## 2. Blinde und sehbehinderte Menschen
+## Blinde und sehbehinderte Menschen
 
 🇩🇪 ~ 1,2 Millionen
 
 Schätzungen und Hochrechnungen, da blinde und sehbehinderte Menschen hierzulande nicht gezählt werden
 
-<style scoped>a { font-size: 60%;}</style>
-
 [Quelle](https://www.rehadat-statistik.de/statistiken/behinderung/behinderungsarten/blindheit-und-sehbehinderung)
 
 ---
 
-# Wer ist betroffen
+## Wer ist betroffen
 
-## 3. Gehörlose Menschen
+### Gehörlose Menschen
 
 🇩🇪 ~ 83.000 Millionen
 
 hochgradig hörbehindert oder gehörlos
 
-<style scoped>a { font-size: 60%;}</style>
-
 [Quelle](https://www.gehoerlosen-bund.de/sachthemen/statistik%20der%20geh%C3%B6rlosen%20menschen)
 
 ---
 
-# Wer ist betroffen
+## Wer ist betroffen
 
-## 3. Schwerhörige Menschen
+### Schwerhörige Menschen
 
 🇩🇪 ~ 15,6 Millionen
 
 Menschen, die nicht mehr gut hören können und früher oder später auf akustische Hilfsmittel angewiesen sind.
 
-<style scoped>a { font-size: 60%;}</style>
-
 [Quelle](https://www.audibene.de/hoerverlust-in-deutschland)
 
 ---
 
-# Wer ist betroffen
+## Wer ist betroffen
 
-## 4. Menschen mit eingeschränkter Motorik
+### Menschen mit eingeschränkter Motorik
 
 🇩🇪 ~ 1,5 Millionen mit rheumatischen Erkrankungen.
-
-<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://dgrh.de/Start/DGRh/Presse/Daten-und-Fakten/Rheuma-in-Zahlen.html)
 
 ---
 
-# Wer ist betroffen
+## Wer ist betroffen
 
-## 5. Menschen mit kognitiven Beeinträchtigungen
+### Menschen mit kognitiven Beeinträchtigungen
 
 Menschen mit geistigen oder seelischen Behinderungen; Menschen mit einer Leseschwäche
 
 ---
 
-# Wer ist betroffen
+## Wer ist betroffen
 
-## 6. Alle
+### Alle
 
 Ältere Menschen, Mobile-Nutzer, Nicht-Muttersprachler
 
@@ -226,22 +194,11 @@ Etwa jeder Zweite ab 65 Jahren nutzt das Internet
 
 ---
 
-# Gliederung
-
-1. Der Begriff Barrierefreiheit
-2. Wer ist betroffen?
-3. **>> Barrierefreies Internet <<**
-4. WCAG
-5. Barrierefreie PDF
-6. Beispiele
+## 3. Barrierefreies Internet
 
 ---
 
-# Barrierefreies Internet
-
----
-
-# Barrierefreies Internet
+## Barrierefreies Internet
 
 Menschen mit Behinderungen
 
@@ -251,7 +208,7 @@ Menschen mit Behinderungen
 
 ---
 
-# Barrierefreies Internet
+## Barrierefreies Internet
 
 Auch für nichtbehinderte Nutzer
 
@@ -260,27 +217,25 @@ Auch für nichtbehinderte Nutzer
 
 ---
 
-# Barrierefreies Internet
+## Barrierefreies Internet
 
-## Screenreader Demo
+### Screenreader Demo
 
-<video src={screenreader} poster={screenreadercover} controls preload></video>
+![Video](videos/NVDA-Screenreader-Tim-Berners-Lee-W3C.mp4)
 
 ---
 
-# Barrierefreies Internet
+## Barrierefreies Internet
 
-## Hilfstechnologien
+### Hilfstechnologien
 
-![bg width:500px](images/wikipedia-hilfstechnologien.jpg)
-
-<style scoped>a { font-size: 60%;}</style>
+![w:500px](images/wikipedia-hilfstechnologien.jpg)
 
 [Quelle](https://de.wikipedia.org/wiki/Barrierefreies_Internet#/media/Datei:Biene2004-29.jpg)
 
 ---
 
-# Vorteile von barrierefreiem Internet
+## Vorteile von barrierefreiem Internet
 
 - Zielgruppe erweitern
 - Einfache Bedienbarkeit für alle
@@ -292,7 +247,7 @@ Auch für nichtbehinderte Nutzer
 
 ---
 
-# Beispiele
+## Beispiele
 
 Die uns alle betreffen...
 
@@ -306,7 +261,7 @@ Die uns alle betreffen...
 
 ---
 
-# Beispiele
+## Beispiele
 
 aber auch das kann dazu gehören
 
@@ -322,9 +277,7 @@ aber auch das kann dazu gehören
 
 ---
 
-# Gesetze & Richtlinien
-
-<style scoped>a { font-size: 60%;}</style>
+## Gesetze & Richtlinien
 
 [EU-Richtlinie 2016/2102](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016L2102)
 
@@ -338,19 +291,17 @@ aber auch das kann dazu gehören
 
 ---
 
-# EU-Richtlinie 2016/2102
+## EU-Richtlinie 2016/2102
 
 ![bg right w:90%](images/eu2102-website.png)
-
-<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016L2102&from=DE)
 
 ---
 
-# EU-Richtlinie 2016/2102
+## EU-Richtlinie 2016/2102
 
-## Artikel 12 (3) - Umsetzung
+### Artikel 12 (3) - Umsetzung
 
 - a) auf Websites öffentlicher Stellen, die nicht vor dem 23. September 2018 veröffentlicht wurden: ab dem 23. September 2019;
 - b) auf alle Websites öffentlicher Stellen, die nicht unter Buchstabe a fallen: ab dem 23. September 2020;
@@ -360,9 +311,9 @@ aber auch das kann dazu gehören
 
 ---
 
-# EU-Richtlinie 2016/2102
+## EU-Richtlinie 2016/2102
 
-## Artikel 2 (1) Nr. 4 - Begriffsbestimmungen
+### Artikel 2 (1) Nr. 4 - Begriffsbestimmungen
 
 „Einrichtungen des öffentlichen Rechts“ Einrichtungen mit sämtlichen der folgenden Merkmale:
 
@@ -370,15 +321,13 @@ aber auch das kann dazu gehören
 - b) sie besitzen Rechtspersönlichkeit und
 - c) sie werden überwiegend vom Staat, von Gebietskörperschaften oder von anderen Einrichtungen des öffentlichen Rechts finanziert […]
 
-<style scoped>a { font-size: 60%;}</style>
-
 [Quelle](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014L0024)
 
 ---
 
-# EU-Richtlinie 2016/2102
+## EU-Richtlinie 2016/2102
 
-## Artikel 1 - Gegenstand und Anwendungsbereich
+### Artikel 1 - Gegenstand und Anwendungsbereich
 
 (4) Diese Richtlinie gilt **nicht** für die folgenden Inhalte von Websites und mobilen Anwendungen:
 - a) Dateiformate von Büroanwendungen, die vor dem 23. September 2018 veröffentlicht wurden, […]
@@ -388,35 +337,33 @@ Dateiformate von Büro-Anwendungen sind zu verstehen als Dokumente, die nicht in
 
 ---
 
-# EU-Richtlinie 2016/2102
+## EU-Richtlinie 2016/2102
 
-## Artikel 7 - Zusätzliche Maßnahmen
+### Artikel 7 - Zusätzliche Maßnahmen
 
 > (1) Die Mitgliedstaaten stellen sicher, dass öffentliche Stellen eine detaillierte, umfassende und klare Erklärung zur Barrierefreiheit über die Vereinbarkeit ihrer Websites und mobilen Anwendungen mit dieser Richtlinie bereitstellen und diese regelmäßig aktualisieren.
 
 ---
 
-# EU-Richtlinie 2016/2102
+## EU-Richtlinie 2016/2102
 
-## Artikel 9 - Durchsetzungsverfahren
+### Artikel 9 - Durchsetzungsverfahren
 
 > (1) Die Mitgliedstaaten gewährleisten die Verfügbarkeit eines angemessenen und wirksamen Durchsetzungsverfahrens, um die Einhaltung dieser Richtlinie in Bezug auf die Anforderungen in Artikel 4, Artikel 5 und Artikel 7 Absatz 1 zu gewährleisten.
 
 ---
 
-# EU-Richtlinie 2016/2102
+## EU-Richtlinie 2016/2102
 
-## Schlichtungsverfahren
+### Schlichtungsverfahren
 
 > […], können Sie sich an die Schlichtungsstelle nach § 16 BGG wenden. Die Schlichtungsstelle BGG hat die Aufgabe, bei Konflikten zum Thema Barrierefreiheit zwischen Menschen mit Behinderungen und öffentlichen Stellen eine außergerichtliche Streitbeilegung zu unterstützen.
-
-<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://www.stuttgart.de/buergerinnen-und-buerger/menschen-mit-behinderung/barrierefrei-in-stuttgart/Barrieren-melden.php)
 
 ---
 
-# BITV
+## BITV
 
 > Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz
 
@@ -424,31 +371,29 @@ Zuletzt geändert am 21.05.2019
 
 Gültig auf Bundesebene. Bundesländer haben eigene Bestimmungen.
 
-<style scoped>a { font-size: 60%;}</style>
-
 [Quelle](https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html)
 
 ---
 
-# BITV
+## BITV
 
-## § 1 Ziele
+### § 1 Ziele
 
 > (1) Die Barrierefreie-Informationstechnik-Verordnung dient dem Ziel, eine umfassend und grundsätzlich uneingeschränkt barrierefreie Gestaltung moderner Informations- und Kommunikationstechnik zu ermöglichen und zu gewährleisten.
 
 ---
 
-# BITV
+## BITV
 
-## § 2 Anwendungsbereich
+### § 2 Anwendungsbereich
 
 [Gekürzt] gilt für folgende Angebote, Anwendungen und Dienste: Websites, mobile Anwendungen, elektronisch unterstützte Verwaltungsabläufe, grafische Programmoberflächen, die […] von den öffentlichen Stellen zur Nutzung bereitgestellt werden.
 
 ---
 
-# BITV
+## BITV
 
-## § 4 Erläuterungen in Deutscher Gebärdensprache und Leichter Sprache
+### § 4 Erläuterungen in Deutscher Gebärdensprache und Leichter Sprache
 
 > Auf der Startseite einer Website einer öffentlichen Stelle sind nach Anlage 2 folgende Erläuterungen in Deutscher Gebärdensprache und in Leichter Sprache bereitzustellen:
 
@@ -459,28 +404,15 @@ Gültig auf Bundesebene. Bundesländer haben eigene Bestimmungen.
 
 ---
 
-# Gliederung
-
-1. Der Begriff Barrierefreiheit
-2. Wer ist betroffen?
-3. Barrierefreies Internet
-4. **>> WCAG <<**
-5. Barrierefreie PDF
-6. Beispiele
-
----
-
-# Web Content Accessibility Guidelines
+## 4. Web Content Accessibility Guidelines
 
 ![bg right w:90%](images/wcag-website.png)
-
-<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://www.w3.org/TR/WCAG21/)
 
 ---
 
-# Web Content Accessibility Guidelines
+## Web Content Accessibility Guidelines
 
 Internationaler Standard zur barrierefreien Gestaltung von Internetangeboten
 
@@ -492,17 +424,15 @@ DAS Nachschlagewerk
 
 ---
 
-# Web Content Accessibility Guidelines
+## Web Content Accessibility Guidelines
 
 > […] decken einen großen Bereich von Empfehlungen ab, um Webinhalte barrierefreier zu machen. Wenn Sie diesen Richtlinien folgen, dann werden Inhalte für eine größere Gruppe von Menschen mit Behinderungen barrierefrei sein.
-
-<style scoped>a { font-size: 60%;}</style>
 
 – [WCAG 2.0](https://www.w3.org/Translations/WCAG20-de/)
 
 ---
 
-# Web Content Accessibility Guidelines
+## Web Content Accessibility Guidelines
 
 ## Aufbau/Ebenen der WCAG
 
@@ -518,17 +448,15 @@ Erfolgskriterien
 
 ---
 
-# Web Content Accessibility Guidelines
+## Web Content Accessibility Guidelines
 
 ![bg right h:90%](images/wcag-map.png)
-
-<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](http://intopia.digital/articles/intopia-launches-wcag-2-1-map/)
 
 ---
 
-# WCAG - Ebene 1: Prinzipien
+## WCAG - Ebene 1: Prinzipien
 
 1. Wahrnehmbarkeit (Perceivable)
 2. Bedienbarkeit (Operable)
@@ -539,7 +467,7 @@ Erfolgskriterien
 
 ---
 
-# WCAG - Ebene 2: Richtlinien
+## WCAG - Ebene 2: Richtlinien
 
 Unterhalb der vier Prinzipien gibt es insgesamt 13 Richtlinien
 
@@ -547,7 +475,7 @@ unter 1. Wahrnehmbar ➡️ 1.1 Text Alternativen
 
 ---
 
-# WCAG - Ebene 3: Erfolgskriterien
+## WCAG - Ebene 3: Erfolgskriterien
 
 Erfolgskriterien / Abstufungen / Prioritäten / Level
 
@@ -561,7 +489,7 @@ In Summe 78 Erfolgskriterien (30 A + 20 AA + 28 AAA)
 
 ---
 
-# WCAG - Layer 3: Erfolgskriterien
+## WCAG - Layer 3: Erfolgskriterien
 
 Level A ist die kleinste Stufe und AAA die höchste
 
@@ -581,17 +509,15 @@ Um unterschiedliche Anforderungen zu erfüllen
 
 ---
 
-# EU-Richtlinie 2016/2102
+## EU-Richtlinie 2016/2102
 
 Als **Maßstab für Barrierefreiheit** gilt die EN 301 549 V2.1.2, das hat die Kommission der Europäischen Union per Durchführungsbeschluss (EU) 2018/2048 festgelegt. Bezüglich des **Webs** gibt Abschnitt 9 (Web) dieser Europäischen Norm (EN) die **Level A und AA** des internationalen Standards, der Web Content Accessibility Guidelines (WCAG) 2.1, wieder.
-
-<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://bik-fuer-alle.de/eu-richtlinie-barrierefreie-webangebote-oeffentlicher-stellen.html)
 
 ---
 
-# 1. Prinzip: Wahrnehmbar
+## 1. Prinzip: Wahrnehmbar
 
 > Informationen und Bestandteile der Benutzerschnittstelle müssen den Benutzern so präsentiert werden, dass diese sie wahrnehmen können.
 
@@ -602,7 +528,7 @@ Als **Maßstab für Barrierefreiheit** gilt die EN 301 549 V2.1.2, das hat die K
 
 ---
 
-# 2. Prinzip: Bedienbar
+## 2. Prinzip: Bedienbar
 
 > Bestandteile der Benutzerschnittstelle und Navigation müssen bedienbar sein.
 
@@ -613,7 +539,7 @@ Als **Maßstab für Barrierefreiheit** gilt die EN 301 549 V2.1.2, das hat die K
 
 ---
 
-# 3. Prinzip: Verständlich
+## 3. Prinzip: Verständlich
 
 > Informationen und Bedienung der Benutzerschnittstelle müssen verständlich sein.
 
@@ -623,7 +549,7 @@ Als **Maßstab für Barrierefreiheit** gilt die EN 301 549 V2.1.2, das hat die K
 
 ---
 
-# 4. Prinzip: Robust
+## 4. Prinzip: Robust
 
 > Inhalte müssen robust genug sein, damit sie zuverlässig von einer großen Auswahl an Benutzeragenten einschließlich assistierender Techniken interpretiert werden können.
 
@@ -631,22 +557,11 @@ Als **Maßstab für Barrierefreiheit** gilt die EN 301 549 V2.1.2, das hat die K
 
 ---
 
-# Gliederung
-
-1. Der Begriff Barrierefreiheit
-2. Wer ist betroffen?
-3. Barrierefreies Internet
-4. WCAG
-5. **>> Barrierefreie PDF <<**
-6. Beispiele
+## 5. Barrierefreie PDF
 
 ---
 
-# Barrierefreie PDF
-
----
-
-# PDF - Layout
+## PDF - Layout
 
 - Layout Struktur, Doppelseiten-Layouts, Einzelseiten,
 - Auswahl Schrift bzgl. Größe, Farbe, Lesbarkeit, Type, Schnitt, …
@@ -654,7 +569,7 @@ Als **Maßstab für Barrierefreiheit** gilt die EN 301 549 V2.1.2, das hat die K
 
 ---
 
-# PDF - Auszeichnung
+## PDF - Auszeichnung
 
 - Sprache vom Dokument, Titel, Seitenzahlen, Leserichtung
 - Inhalts-Struktur durch Tags für Überschriften, Absätze, Listen, (Lesezeichen)
@@ -670,11 +585,11 @@ Als **Maßstab für Barrierefreiheit** gilt die EN 301 549 V2.1.2, das hat die K
 
 Adobe Acrobat bietet die Möglichkeit an, ein Dokument automatisch zu prüfen:
 
-<code>Option Erweitert > Ausgabehilfe > Vollständige Prüfung</code>
+`Option Erweitert > Ausgabehilfe > Vollständige Prüfung`
 
 ---
 
-# PDF - Eigene Prüfung
+## PDF - Eigene Prüfung
 
 - Alternativ-Text für Bilder
 - Markierbarer Text
@@ -686,7 +601,7 @@ Adobe Acrobat bietet die Möglichkeit an, ein Dokument automatisch zu prüfen:
 
 ---
 
-# Linkliste - Barrierefreie PDF
+## Linkliste - Barrierefreie PDF
 
 - [Barrierefreie PDF erstellen – wie geht das?](https://barrierekompass.de/pdf/barrierefreie-pdf-erstellen-wie-geht-das.html)
 - [Gestaltung barrierefreier PDF-Dokumente](https://www.einfach-fuer-alle.de/artikel/pdf-barrierefrei-umsetzen/)
@@ -695,110 +610,117 @@ Adobe Acrobat bietet die Möglichkeit an, ein Dokument automatisch zu prüfen:
 
 ---
 
-# Gliederung
+## 6. Beispiele
 
-1. Der Begriff Barrierefreiheit
-2. Wer ist betroffen?
-3. Barrierefreies Internet
-4. WCAG
-5. Barrierefreie PDF
-6. **>> Beispiele <<**
+### PDF
 
 ---
 
-# Beispiele - PDF
+![bg h:90%](images/examplepdf-inhaltsverzeichnis.png)
 
 ---
 
-# Text-Reihenfolge?!
-
-<img src={examplepdftext1} style={{ maxHeight: '80vh' }} />
+![bg h:90%](images/examplepdf-text1.png)
 
 ---
 
-<img src={examplepdftext2} style={{ maxHeight: '90vh' }} />
+![bg h:90%](images/examplepdf-text2.png)
 
 ---
 
-<img src={examplepdflayout1} style={{ maxHeight: '90vh' }} />
+![bg h:90%](images/examplepdf-layout1.png)
 
 ---
 
-<img src={examplepdflayout2} style={{ maxHeight: '90vh' }} />
+![bg h:90%](images/examplepdf-layout2.png)
 
 ---
 
-<img src={examplepdfinhaltsverzeichnis} style={{ maxHeight: '90vh' }} />
+## Beispiele
+
+### Web
 
 ---
 
-# Beispiele - Web
+![bg h:90%](images/example-altattributes1.png)
 
 ---
 
-<img src={examplealtattributes1} style={{ maxHeight: '90vh' }} />
+![bg h:90%](images/example-altattributes2.png)
 
 ---
 
-<img src={examplealtattributes2} style={{ maxHeight: '90vh' }} />
+![bg h:90%](images/example-contrast.png)
 
 ---
 
-<img src={exampleheadings} style={{ maxHeight: '90vh' }} />
+![bg h:90%](images/example-disabledstyles.png)
 
 ---
 
-<img src={examplecontrast} style={{ maxHeight: '90vh' }} />
+![bg h:90%](images/example-focus.png)
 
 ---
 
-<img src={exampledisabledstyles} style={{ maxHeight: '90vh' }} />
+![bg h:90%](images/example-form.png)
 
 ---
 
-<img src={examplefocus} style={{ maxHeight: '90vh' }} />
+![bg h:90%](images/example-headings.png)
 
 ---
 
-<img src={exampleform} style={{ maxHeight: '90vh' }} />
+![bg h:90%](images/example-landmarks.png)
 
 ---
 
-<img src={exampletextabstaende} style={{ maxHeight: '90vh' }} />
+![bg h:90%](images/example-textabstaende.png)
 
 ---
 
-<img src={examplelandmarks} style={{ maxHeight: '90vh' }} />
+## 7. BITV Test
 
----
+--- 
 
-# BITV Test
-
-> Der BITV-Test ist ein Prüfverfahren für die umfassende und zuverlässige Prüfung der Barrierefreiheit von informationsorientierten Webangeboten.
-
-60 Prüfschritte
-
-** ja / eher erfüllt ** / teilweise erfüllt / eher nicht erfüllt / nicht erfüllt / nicht anwendbar
-
-inkl. Erläuterungen was, warum und wie
-
-Aber: basiert auf eigener Einschätzung
-
----
-
-# BITV Test
+## BITV Test
 
 ![bg right height:370px](images/bitvtest1.png)
 
 ---
 
-# Kontrast-Checker
+## BITV Test
+
+> Der BITV-Test ist ein Prüfverfahren für die umfassende und zuverlässige Prüfung der Barrierefreiheit von informationsorientierten Webangeboten.
+
+---
+
+## BITV Test
+
+## 60 Prüfschritte
+
+- **ja**
+- **eher erfüllt**
+- teilweise erfüllt
+- eher nicht erfüllt
+- nicht erfüllt
+- nicht anwendbar
+
+<!--
+inkl. Erläuterungen was, warum und wie
+Aber: basiert auf eigener Einschätzung
+-->
+
+---
+
+## 8. Tools
+
+## Kontrast-Checker
 
 ![bg right height:370px](images/contrast-ratio.png)
 
 ---
 
-# Fazit
+## Fazit
 
 - Komplex
 - Sensibilisierung für das Thema
@@ -807,6 +729,6 @@ Aber: basiert auf eigener Einschätzung
 
 ---
 
-# Ende
+## Ende
 
-## Danke
+### Danke für eure Aufmerksamkeit

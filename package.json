@@ -11,8 +11,8 @@
   "main": "deck.md",
   "license": "MIT",
   "scripts": {
-    "dev": "marp -s ./slides -w",
-    "pdf": "marp --pdf --allow-local-files ./slides/deck.md -o ./slides/converted.pdf"
+    "dev": "marp -s ./content --watch",
+    "pdf": "marp --pdf --allow-local-files ./content/deck.md -o ./content/converted.pdf"
   },
   "dependencies": {},
   "devDependencies": {
