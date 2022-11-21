@@ -12,7 +12,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "marp -s content --watch",
-    "deck": "marp --no-stdin content/index.md -o public/index.html && ncp content/images public/images",
+    "deck": "marp --no-stdin content/index.md -o public/index.html && ncp content/assets public/assets",
     "pdf": "marp --pdf --allow-local-files content/index.md -o public/converted.pdf",
     "clean": "rimraf public",
     "build": "rimraf public && yarn deck",
