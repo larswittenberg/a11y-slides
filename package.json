@@ -11,10 +11,11 @@
   "main": "deck.md",
   "license": "MIT",
   "scripts": {
-    "dev": "marp -s ./content --watch",
-    "html": "marp ./content/index.md -o ./public/index.html && ncp ./content/images public/images",
-    "pdf": "marp --pdf --allow-local-files ./content/index.md -o ./public/converted.pdf",
-    "build": "rimraf public && yarn html",
+    "dev": "marp -s content --watch",
+    "deck": "marp --no-stdin content/index.md -o public/index.html && ncp content/images public/images",
+    "pdf": "marp --pdf --allow-local-files content/index.md -o public/converted.pdf",
+    "clean": "rimraf public",
+    "build": "rimraf public && yarn deck",
     "vercel-build": "npm i puppeteer --no-save && MARP_USER=root CHROME_PATH=$(node -e \"console.log(require('puppeteer').executablePath())\") yarn build"
   },
   "dependencies": {},
