@@ -13,7 +13,8 @@
   "scripts": {
     "dev": "marp -s ./content --watch",
     "html": "marp ./content/index.md -o ./public/index.html",
-    "pdf": "marp --pdf --allow-local-files ./content/index.md -o ./public/converted.pdf"
+    "pdf": "marp --pdf --allow-local-files ./content/index.md -o ./public/converted.pdf",
+    "vercel-build": "npm i puppeteer --no-save && MARP_USER=root CHROME_PATH=$(node -e \"console.log(require('puppeteer').executablePath())\") npm run html"
   },
   "dependencies": {},
   "devDependencies": {
