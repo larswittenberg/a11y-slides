@@ -58,13 +58,13 @@ Ideen?
 
 ---
 
-![bg width:800px](images/fail_1.jpg)
-![bg width:600px](images/fail_2.jpg)
+![bg width:800px](assets/fail_1.jpg)
+![bg width:600px](assets/fail_2.jpg)
 
 ---
 
-![bg width:500px](images/fail_3.jpg)
-![bg width:480px](images/fail_4.jpg)
+![bg width:500px](assets/fail_3.jpg)
+![bg width:480px](assets/fail_4.jpg)
 
 ---
 
@@ -96,11 +96,11 @@ Ideen?
 
 ---
 
-Wie viele Menschen in Stuttgart haben einen Schwer&shy;behinderten&shy;ausweis?
+Wie viele Menschen in Stuttgart haben einen Schwerbehindertenausweis?
 
 ---
 
-Wie viele Menschen in Stuttgart haben einen Schwer&shy;behinderten&shy;ausweis?
+Wie viele Menschen in Stuttgart haben einen Schwerbehindertenausweis?
 
 47.907
 
@@ -180,7 +180,9 @@ Menschen, die nicht mehr gut hören können und früher oder später auf akustis
 
 ### Menschen mit kognitiven Beeinträchtigungen
 
-Menschen mit geistigen oder seelischen Behinderungen; Menschen mit einer Leseschwäche
+Menschen mit geistigen oder seelischen Behinderungen
+
+Menschen mit einer Leseschwäche
 
 ---
 
@@ -210,9 +212,9 @@ Menschen mit Behinderungen
 
 ## Barrierefreies Internet
 
-Auch für nichtbehinderte Nutzer
+Vorteile auch für Nutzer:innen ohne Behinderungen
 
-- technische Barrierefreiheit / Plattformunabhängigkeit
+- technische Barrierefreiheit == Plattformunabhängigkeit
 - angepasste Anforderungen an Bildung und Ausbildung
 
 ---
@@ -221,7 +223,7 @@ Auch für nichtbehinderte Nutzer
 
 ### Screenreader Demo
 
-![Video](videos/NVDA-Screenreader-Tim-Berners-Lee-W3C.mp4)
+[![w:600px](assets/NVDA-Screenreader-Tim-Berners-Lee-W3C_cover.png)](https://youtu.be/5-CVQNRdoKU)
 
 ---
 
@@ -229,7 +231,7 @@ Auch für nichtbehinderte Nutzer
 
 ### Hilfstechnologien
 
-![w:500px](images/wikipedia-hilfstechnologien.jpg)
+![w:600px](assets/wikipedia-hilfstechnologien.jpg)
 
 [Quelle](https://de.wikipedia.org/wiki/Barrierefreies_Internet#/media/Datei:Biene2004-29.jpg)
 
@@ -293,7 +295,7 @@ aber auch das kann dazu gehören
 
 ## EU-Richtlinie 2016/2102
 
-![bg right w:90%](images/eu2102-website.png)
+![bg right w:90%](assets/eu2102-website.png)
 
 [Quelle](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016L2102&from=DE)
 
@@ -302,6 +304,8 @@ aber auch das kann dazu gehören
 ## EU-Richtlinie 2016/2102
 
 ### Artikel 12 (3) - Umsetzung
+
+<style scoped>li { font-size: 90%; }</style>
 
 - a) auf Websites öffentlicher Stellen, die nicht vor dem 23. September 2018 veröffentlicht wurden: ab dem 23. September 2019;
 - b) auf alle Websites öffentlicher Stellen, die nicht unter Buchstabe a fallen: ab dem 23. September 2020;
@@ -317,6 +321,8 @@ aber auch das kann dazu gehören
 
 „Einrichtungen des öffentlichen Rechts“ Einrichtungen mit sämtlichen der folgenden Merkmale:
 
+<style scoped>li { font-size: 90%; }</style>
+
 - a) Sie wurden zu dem besonderen Zweck gegründet, im Allgemeininteresse liegende Aufgaben nicht gewerblicher Art zu erfüllen,
 - b) sie besitzen Rechtspersönlichkeit und
 - c) sie werden überwiegend vom Staat, von Gebietskörperschaften oder von anderen Einrichtungen des öffentlichen Rechts finanziert […]
@@ -329,10 +335,13 @@ aber auch das kann dazu gehören
 
 ### Artikel 1 - Gegenstand und Anwendungsbereich
 
+<style scoped>li { font-size: 90%; }</style>
+
 (4) Diese Richtlinie gilt **nicht** für die folgenden Inhalte von Websites und mobilen Anwendungen:
 - a) Dateiformate von Büroanwendungen, die vor dem 23. September 2018 veröffentlicht wurden, […]
 - b) aufgezeichnete zeitbasierte Medien, die vor dem 23. September 2020 veröffentlicht wurden;
 
+<style scoped>p { font-size: 60%; }</style>
 Dateiformate von Büro-Anwendungen sind zu verstehen als Dokumente, die nicht in erster Linie für die Verwendung im Internet gedacht sind und die in Websites enthalten sind, wie z. B. Dokumente in Adobe Portable Document Format (PDF), Microsoft-Office- oder (quelloffenen) gleichwertigen Formaten.
 
 ---
@@ -397,6 +406,8 @@ Gültig auf Bundesebene. Bundesländer haben eigene Bestimmungen.
 
 > Auf der Startseite einer Website einer öffentlichen Stelle sind nach Anlage 2 folgende Erläuterungen in Deutscher Gebärdensprache und in Leichter Sprache bereitzustellen:
 
+<style scoped>li { font-size: 90%; }</style>
+
 - 1. Informationen zu den wesentlichen Inhalten,
 - 2. Hinweise zur Navigation,
 - 3. eine Erläuterung der wesentlichen Inhalte der Erklärung zur Barrierefreiheit,
@@ -406,7 +417,7 @@ Gültig auf Bundesebene. Bundesländer haben eigene Bestimmungen.
 
 ## 4. Web Content Accessibility Guidelines
 
-![bg right w:90%](images/wcag-website.png)
+![bg right w:90%](assets/wcag-website.png)
 
 [Quelle](https://www.w3.org/TR/WCAG21/)
 
@@ -450,7 +461,7 @@ Erfolgskriterien
 
 ## Web Content Accessibility Guidelines
 
-![bg right h:90%](images/wcag-map.png)
+![bg right h:90%](assets/wcag-map.png)
 
 [Quelle](http://intopia.digital/articles/intopia-launches-wcag-2-1-map/)
 
@@ -458,12 +469,14 @@ Erfolgskriterien
 
 ## WCAG - Ebene 1: Prinzipien
 
+<style scoped>li { font-size: 90%; }</style>
+
 1. Wahrnehmbarkeit (Perceivable)
 2. Bedienbarkeit (Operable)
 3. Verständlichkeit (Understandable)
 4. Robustheit (Robust)
 
-![bg right width:80%](images/wcag-map_center.png)
+![bg right width:80%](assets/wcag-map_center.png)
 
 ---
 
@@ -478,6 +491,8 @@ unter 1. Wahrnehmbar ➡️ 1.1 Text Alternativen
 ## WCAG - Ebene 3: Erfolgskriterien
 
 Erfolgskriterien / Abstufungen / Prioritäten / Level
+
+<style scoped>li { text-align: center; list-style-type: none; }</style>
 
 - A
 - AA
@@ -501,11 +516,11 @@ Um unterschiedliche Anforderungen zu erfüllen
 
 ---
 
-![bg height:90%](images/wcag-map_top.png)
+![bg height:94%](assets/wcag-map_top.png)
 
 ---
 
-![bg height:90%](images/wcag-map_bottom.png)
+![bg height:90%](assets/wcag-map_bottom.png)
 
 ---
 
@@ -521,6 +536,8 @@ Als **Maßstab für Barrierefreiheit** gilt die EN 301 549 V2.1.2, das hat die K
 
 > Informationen und Bestandteile der Benutzerschnittstelle müssen den Benutzern so präsentiert werden, dass diese sie wahrnehmen können.
 
+<style scoped>li { font-size: 80%; }</style>
+
 - 1.1 Stellen Sie Textalternativen für alle Nicht-Text-Inhalte zur Verfügung, so dass diese in andere vom Benutzer benötigte Formen geändert werden können, wie zum Beispiel Großschrift, Braille, Symbole oder einfachere Sprache.
 - 1.2 Stellen Sie Alternativen für zeitbasierte Medien zur Verfügung.
 - 1.3 Erstellen Sie Inhalte, die auf verschiedene Arten dargestellt werden können (z.B. einfacheres Layout), ohne dass Informationen oder Struktur verloren gehen.
@@ -531,6 +548,8 @@ Als **Maßstab für Barrierefreiheit** gilt die EN 301 549 V2.1.2, das hat die K
 ## 2. Prinzip: Bedienbar
 
 > Bestandteile der Benutzerschnittstelle und Navigation müssen bedienbar sein.
+
+<style scoped>li { font-size: 80%; }</style>
 
 - 2.1 Sorgen Sie dafür, dass alle Funktionalitäten per Tastatur zugänglich sind.
 - 2.2 Geben Sie den Benutzern ausreichend Zeit, Inhalte zu lesen und zu benutzen.
@@ -543,6 +562,8 @@ Als **Maßstab für Barrierefreiheit** gilt die EN 301 549 V2.1.2, das hat die K
 
 > Informationen und Bedienung der Benutzerschnittstelle müssen verständlich sein.
 
+<style scoped>li { font-size: 80%; }</style>
+
 - 3.1 Machen Sie Inhalt lesbar und verständlich.
 - 3.2 Sorgen Sie dafür, dass Webseiten vorhersehbar aussehen und funktionieren.
 - 3.3 Helfen Sie den Benutzern dabei, Fehler zu vermeiden und zu korrigieren.
@@ -552,6 +573,8 @@ Als **Maßstab für Barrierefreiheit** gilt die EN 301 549 V2.1.2, das hat die K
 ## 4. Prinzip: Robust
 
 > Inhalte müssen robust genug sein, damit sie zuverlässig von einer großen Auswahl an Benutzeragenten einschließlich assistierender Techniken interpretiert werden können.
+
+<style scoped>li { font-size: 80%; }</style>
 
 - 4.1 Maximieren Sie die Kompatibilität mit aktuellen und zukünftigen Benutzeragenten, einschließlich assistierender Techniken.
 
@@ -616,23 +639,23 @@ Adobe Acrobat bietet die Möglichkeit an, ein Dokument automatisch zu prüfen:
 
 ---
 
-![bg h:90%](images/examplepdf-inhaltsverzeichnis.png)
+![bg h:90%](assets/examplepdf-inhaltsverzeichnis.png)
 
 ---
 
-![bg h:90%](images/examplepdf-text1.png)
+![bg h:90%](assets/examplepdf-text1.png)
 
 ---
 
-![bg h:90%](images/examplepdf-text2.png)
+![bg h:90%](assets/examplepdf-text2.png)
 
 ---
 
-![bg h:90%](images/examplepdf-layout1.png)
+![bg h:90%](assets/examplepdf-layout1.png)
 
 ---
 
-![bg h:90%](images/examplepdf-layout2.png)
+![bg h:90%](assets/examplepdf-layout2.png)
 
 ---
 
@@ -642,39 +665,39 @@ Adobe Acrobat bietet die Möglichkeit an, ein Dokument automatisch zu prüfen:
 
 ---
 
-![bg h:90%](images/example-altattributes1.png)
+![bg h:90%](assets/example-altattributes1.png)
 
 ---
 
-![bg h:90%](images/example-altattributes2.png)
+![bg h:90%](assets/example-altattributes2.png)
 
 ---
 
-![bg h:90%](images/example-contrast.png)
+![bg h:90%](assets/example-contrast.png)
 
 ---
 
-![bg h:90%](images/example-disabledstyles.png)
+![bg h:90%](assets/example-disabledstyles.png)
 
 ---
 
-![bg h:90%](images/example-focus.png)
+![bg h:90%](assets/example-focus.png)
 
 ---
 
-![bg h:90%](images/example-form.png)
+![bg h:90%](assets/example-form.png)
 
 ---
 
-![bg h:90%](images/example-headings.png)
+![bg h:90%](assets/example-headings.png)
 
 ---
 
-![bg h:90%](images/example-landmarks.png)
+![bg h:90%](assets/example-landmarks.png)
 
 ---
 
-![bg h:90%](images/example-textabstaende.png)
+![bg h:90%](assets/example-textabstaende.png)
 
 ---
 
@@ -684,7 +707,7 @@ Adobe Acrobat bietet die Möglichkeit an, ein Dokument automatisch zu prüfen:
 
 ## BITV Test
 
-![bg right height:370px](images/bitvtest1.png)
+![bg right height:370px](assets/bitvtest1.png)
 
 ---
 
@@ -716,7 +739,7 @@ Aber: basiert auf eigener Einschätzung
 
 ## Kontrast-Checker
 
-![bg right height:370px](images/contrast-ratio.png)
+![bg right height:370px](assets/contrast-ratio.png)
 
 ---
 
