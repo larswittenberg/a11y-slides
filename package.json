@@ -10,7 +10,10 @@
   },
   "main": "deck.md",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "marp -s ./slides -w",
+    "pdf": "marp --pdf --allow-local-files ./slides/deck.md -o ./slides/converted.pdf"
+  },
   "dependencies": {},
   "devDependencies": {
     "@marp-team/marp-cli": "^2.2.1"

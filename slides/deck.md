@@ -1,16 +1,11 @@
 ---
 marp: true
-theme: default
+theme: gaia
 class: lead
 paginate: true
 backgroundColor: #000
 color: #fff
 ---
-
-import { Flex, Box, Heading, Text, Link } from 'theme-ui';
-import myTheme from './theme';
-// import myTheme from './print'; << Use this for Printer-frindly Layout
-export const theme = myTheme;
 
 import screenreader from './videos/NVDA-Screenreader-Tim-Berners-Lee-W3C.mp4';
 import screenreadercover from './videos/NVDA-Screenreader-Tim-Berners-Lee-W3C_cover.png';
@@ -127,7 +122,7 @@ Wie viele Menschen in Stuttgart haben einen Schwer&shy;behinderten&shy;ausweis?
 
 # 47.907
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://www.stuttgart.de/service/aktuelle-meldungen/oktober-2020/beauftragte-fuer-die-belange-von-menschen-mit-behinderung-stellt-jahresbericht-2019-vor.php)
 
@@ -141,7 +136,7 @@ mind. 50 % Behinderungsgrad + gültiger Ausweis
 
 Aber nicht alle haben Nutzungsschwierigkeiten im Internet
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://www.destatis.de/DE/Presse/Pressemitteilungen/2020/06/PD20_230_227.html)
 
@@ -153,7 +148,7 @@ Aber nicht alle haben Nutzungsschwierigkeiten im Internet
 
 🇩🇪 ~ 72.000
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://www.rehadat-statistik.de/statistiken/behinderung/behinderungsarten/blindheit-und-sehbehinderung)
 
@@ -167,7 +162,7 @@ Aber nicht alle haben Nutzungsschwierigkeiten im Internet
 
 Schätzungen und Hochrechnungen, da blinde und sehbehinderte Menschen hierzulande nicht gezählt werden
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://www.rehadat-statistik.de/statistiken/behinderung/behinderungsarten/blindheit-und-sehbehinderung)
 
@@ -181,7 +176,7 @@ Schätzungen und Hochrechnungen, da blinde und sehbehinderte Menschen hierzuland
 
 hochgradig hörbehindert oder gehörlos
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://www.gehoerlosen-bund.de/sachthemen/statistik%20der%20geh%C3%B6rlosen%20menschen)
 
@@ -195,7 +190,7 @@ hochgradig hörbehindert oder gehörlos
 
 Menschen, die nicht mehr gut hören können und früher oder später auf akustische Hilfsmittel angewiesen sind.
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://www.audibene.de/hoerverlust-in-deutschland)
 
@@ -207,7 +202,7 @@ Menschen, die nicht mehr gut hören können und früher oder später auf akustis
 
 🇩🇪 ~ 1,5 Millionen mit rheumatischen Erkrankungen.
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://dgrh.de/Start/DGRh/Presse/Daten-und-Fakten/Rheuma-in-Zahlen.html)
 
@@ -279,7 +274,7 @@ Auch für nichtbehinderte Nutzer
 
 ![bg width:500px](images/wikipedia-hilfstechnologien.jpg)
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://de.wikipedia.org/wiki/Barrierefreies_Internet#/media/Datei:Biene2004-29.jpg)
 
@@ -329,7 +324,7 @@ aber auch das kann dazu gehören
 
 # Gesetze & Richtlinien
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [EU-Richtlinie 2016/2102](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016L2102)
 
@@ -347,7 +342,7 @@ aber auch das kann dazu gehören
 
 ![bg right w:90%](images/eu2102-website.png)
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016L2102&from=DE)
 
@@ -375,7 +370,7 @@ aber auch das kann dazu gehören
 - b) sie besitzen Rechtspersönlichkeit und
 - c) sie werden überwiegend vom Staat, von Gebietskörperschaften oder von anderen Einrichtungen des öffentlichen Rechts finanziert […]
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014L0024)
 
@@ -415,7 +410,7 @@ Dateiformate von Büro-Anwendungen sind zu verstehen als Dokumente, die nicht in
 
 > […], können Sie sich an die Schlichtungsstelle nach § 16 BGG wenden. Die Schlichtungsstelle BGG hat die Aufgabe, bei Konflikten zum Thema Barrierefreiheit zwischen Menschen mit Behinderungen und öffentlichen Stellen eine außergerichtliche Streitbeilegung zu unterstützen.
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://www.stuttgart.de/buergerinnen-und-buerger/menschen-mit-behinderung/barrierefrei-in-stuttgart/Barrieren-melden.php)
 
@@ -429,7 +424,7 @@ Zuletzt geändert am 21.05.2019
 
 Gültig auf Bundesebene. Bundesländer haben eigene Bestimmungen.
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html)
 
@@ -479,7 +474,7 @@ Gültig auf Bundesebene. Bundesländer haben eigene Bestimmungen.
 
 ![bg right w:90%](images/wcag-website.png)
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://www.w3.org/TR/WCAG21/)
 
@@ -501,7 +496,7 @@ DAS Nachschlagewerk
 
 > […] decken einen großen Bereich von Empfehlungen ab, um Webinhalte barrierefreier zu machen. Wenn Sie diesen Richtlinien folgen, dann werden Inhalte für eine größere Gruppe von Menschen mit Behinderungen barrierefrei sein.
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 – [WCAG 2.0](https://www.w3.org/Translations/WCAG20-de/)
 
@@ -527,7 +522,7 @@ Erfolgskriterien
 
 ![bg right h:90%](images/wcag-map.png)
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](http://intopia.digital/articles/intopia-launches-wcag-2-1-map/)
 
@@ -590,7 +585,7 @@ Um unterschiedliche Anforderungen zu erfüllen
 
 Als **Maßstab für Barrierefreiheit** gilt die EN 301 549 V2.1.2, das hat die Kommission der Europäischen Union per Durchführungsbeschluss (EU) 2018/2048 festgelegt. Bezüglich des **Webs** gibt Abschnitt 9 (Web) dieser Europäischen Norm (EN) die **Level A und AA** des internationalen Standards, der Web Content Accessibility Guidelines (WCAG) 2.1, wieder.
 
-<style scoped>a { color: blue; font-size: 60%;}</style>
+<style scoped>a { font-size: 60%;}</style>
 
 [Quelle](https://bik-fuer-alle.de/eu-richtlinie-barrierefreie-webangebote-oeffentlicher-stellen.html)
 
