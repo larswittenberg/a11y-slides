@@ -12,7 +12,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "marp -s ./content --watch",
-    "pdf": "marp --pdf --allow-local-files ./content/deck.md -o ./content/converted.pdf"
+    "html": "marp ./content/index.md -o ./public/index.html",
+    "pdf": "marp --pdf --allow-local-files ./content/index.md -o ./public/converted.pdf"
   },
   "dependencies": {},
   "devDependencies": {
