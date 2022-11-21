@@ -12,12 +12,15 @@
   "license": "MIT",
   "scripts": {
     "dev": "marp -s ./content --watch",
-    "html": "marp ./content/index.md -o ./public/index.html",
+    "html": "marp ./content/index.md -o ./public/index.html && ncp ./content/images public/images",
     "pdf": "marp --pdf --allow-local-files ./content/index.md -o ./public/converted.pdf",
-    "vercel-build": "npm i puppeteer --no-save && MARP_USER=root CHROME_PATH=$(node -e \"console.log(require('puppeteer').executablePath())\") npm run html"
+    "build": "rimraf public && yarn html",
+    "vercel-build": "npm i puppeteer --no-save && MARP_USER=root CHROME_PATH=$(node -e \"console.log(require('puppeteer').executablePath())\") yarn build"
   },
   "dependencies": {},
   "devDependencies": {
-    "@marp-team/marp-cli": "^2.2.1"
+    "@marp-team/marp-cli": "^2.2.1",
+    "ncp": "^2.0.0",
+    "rimraf": "^3.0.2"
   }
 }
