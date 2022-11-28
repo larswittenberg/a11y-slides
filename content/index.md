@@ -96,6 +96,12 @@ Ideen?
 
 ---
 
+![w:1000px](assets/web-perspectives.png)
+
+[Quelle](https://web-perspectives.com/de/onboarding)
+
+---
+
 Wie viele Menschen in Stuttgart haben einen Schwerbehindertenausweis?
 
 ---
@@ -737,9 +743,15 @@ Aber: basiert auf eigener Einschätzung
 
 ## 8. Tools
 
-## Kontrast-Checker
+### Kontrast-Checker
 
 ![bg right height:370px](assets/contrast-ratio.png)
+
+---
+
+### Links
+
+[Visualisierung der WCAG - Web Perspectives](https://web-perspectives.com/de)
 
 ---
 
