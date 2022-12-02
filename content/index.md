@@ -743,15 +743,45 @@ Aber: basiert auf eigener Einschätzung
 
 ## 8. Tools
 
+---
+
 ### Kontrast-Checker
+
+[contrast-ratio.com](https://contrast-ratio.com/#)
 
 ![bg right height:370px](assets/contrast-ratio.png)
 
 ---
 
+### HTML-Validierung
+
+[Chrome Erweiterung Validity](https://chrome.google.com/webstore/detail/validity/bbicmjjbohdfglopkidebfccilipgeif)
+
+![bg right height:370px](assets/validity.png)
+
+---
+
+### WAVE Web Accessibility Evaluation Tools
+
+[Website](https://wave.webaim.org/)
+[Chrome Erweiterung](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+
+![bg right height:370px](assets/wave.png)
+
+---
+### Bookmarklets
+
+- [BITV Test - Bookmarklets Übersicht](https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste/bookmarklets.html)
+- [tota11y - an accessibility visualization toolkit](https://khan.github.io/tota11y/)
+- [JavaScript Bookmarklets for Accessibility Testing](https://pauljadam.com/bookmarklets.html)
+---
+
 ### Links
 
-[Visualisierung der WCAG - Web Perspectives](https://web-perspectives.com/de)
+- [Visualisierung der WCAG - Web Perspectives](https://web-perspectives.com/de)
+- [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
+- [The Accessibility Cheatsheet](https://bitsofco.de/the-accessibility-cheatsheet/)
+- [Setting up a screen reader testing environment on your computer](https://www.sarasoueidan.com/blog/testing-environment-setup/)
 
 ---
 
