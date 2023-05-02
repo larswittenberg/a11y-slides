@@ -243,6 +243,16 @@ Vorteile auch für Nutzer:innen ohne Behinderungen
 
 ---
 
+## Barrierefreies Internet
+
+### Hilfstechnologien
+
+![w:600px](assets/gaming.png)
+
+[Quelle](https://www.youtube.com/watch?v=doi7SdhhrTQ)
+
+---
+
 ## Vorteile von barrierefreiem Internet
 
 - Zielgruppe erweitern
