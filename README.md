@@ -4,7 +4,9 @@ German presentation on the topic "Accessibility
 
 [https://a11y-slides.vercel.app/](https://a11y-slides.vercel.app/)
 
-Based on [Marp](https://marp.app/)
+Based on [Marp](https://marp.app/) and the Marp CLI v4 toolchain.
+
+> **Hinweis:** Nach der Aktualisierung auf Marp CLI v4 sollten die Abhängigkeiten mit `yarn install` neu installiert werden, damit das lokale Setup die neue Version nutzt.
 
 ## Start Dev Sever
 
