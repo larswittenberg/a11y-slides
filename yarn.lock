@@ -23,59 +23,6 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@marp-team/marp-cli@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@marp-team/marp-cli/-/marp-cli-2.2.1.tgz#582eb86304816228e8442c55af191e5015c4c963"
-  integrity sha512-sbl9AAzYDDU1mTLR/z1GLMyUbHpqyOQMFS/apq2wjEYTCzOQRmsDo4nzw5Esf5QbtjdCQgiGET5wcsVWjWnUBA==
-  dependencies:
-    "@marp-team/marp-core" "^3.4.0"
-    "@marp-team/marpit" "^2.4.2"
-    chokidar "^3.5.3"
-    cosmiconfig "^7.1.0"
-    import-from "^4.0.0"
-    is-wsl "^2.2.0"
-    puppeteer-core "19.2.2"
-    remove "^0.1.5"
-    serve-index "^1.9.1"
-    tmp "^0.2.1"
-    v8-compile-cache "^2.3.0"
-    ws "^8.11.0"
-    yargs "^17.6.2"
-
-"@marp-team/marp-core@^3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@marp-team/marp-core/-/marp-core-3.4.0.tgz#96274432a7b0041e8fb8720ec60509d2c7c845aa"
-  integrity sha512-Sty4C6/AJ6WJONeDujofPNIEHkJtGYpXGqOxR12n+HbgSJtr5bUaAz9P/XVpaXs2EeTqtHwmDxItoqJaZN6qXw==
-  dependencies:
-    "@marp-team/marpit" "^2.4.2"
-    "@marp-team/marpit-svg-polyfill" "^2.0.0"
-    emoji-regex "^10.2.1"
-    highlight.js "^11.6.0"
-    katex "^0.16.3"
-    markdown-it-emoji "^2.0.2"
-    mathjax-full "^3.2.2"
-    postcss "^8.4.19"
-    postcss-selector-parser "^6.0.10"
-    twemoji "^14.0.2"
-    xss "^1.0.14"
-
-"@marp-team/marpit-svg-polyfill@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@marp-team/marpit-svg-polyfill/-/marpit-svg-polyfill-2.0.0.tgz#4efbf248c86b48f2dac0d5e6b4d8bf5bac7dd0b2"
-  integrity sha512-KIp5EaUkwFaeYOAb0b9B7+3XAjZYAUDJi3LRSnH1y27jJY2TCKrXnKIATfPJXSkn9QjTy69fbwCZ07B93QhupA==
-
-"@marp-team/marpit@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@marp-team/marpit/-/marpit-2.4.2.tgz#f74240f14c15a4c5f0bd6b51afabc674750799be"
-  integrity sha512-MBCMaSjkeDzF+Exq8CmhmwsMTzU7fK4NyzA7zl+hreBGppAPvOq5NCnIR2O6nOm9F0QJ9Vmxhs7ZP/BXZ+lWBw==
-  dependencies:
-    color-string "^1.9.1"
-    cssesc "^3.0.0"
-    js-yaml "^4.1.0"
-    lodash.kebabcase "^4.1.1"
-    markdown-it "^13.0.1"
-    markdown-it-front-matter "^0.2.3"
-    postcss "^8.4.19"
 
 "@types/node@*":
   version "18.11.9"
