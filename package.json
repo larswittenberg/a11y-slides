@@ -12,16 +12,14 @@
   "license": "MIT",
   "scripts": {
     "dev": "marp -s content --watch",
-    "deck": "marp --no-stdin content/index.md -o public/index.html && ncp content/assets public/assets",
+    "deck": "marp --no-stdin content/index.md -o public/index.html && node scripts/copy-assets.mjs",
     "pdf": "marp --pdf --allow-local-files content/index.md -o public/converted.pdf",
-    "clean": "rimraf public",
-    "build": "rimraf public && yarn deck",
-    "vercel-build": "npm i puppeteer --no-save && MARP_USER=root CHROME_PATH=$(node -e \"console.log(require('puppeteer').executablePath())\") yarn build"
+    "copy-assets": "node scripts/copy-assets.mjs",
+    "clean": "node scripts/clean.mjs",
+    "build": "node scripts/clean.mjs && marp --no-stdin content/index.md -o public/index.html && node scripts/copy-assets.mjs",
+    "vercel-build": "npm i puppeteer --no-save && MARP_USER=root CHROME_PATH=$(node -e \"console.log(require('puppeteer').executablePath())\") npm run build"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@marp-team/marp-cli": "^2.2.1",
-    "ncp": "^2.0.0",
-    "rimraf": "^3.0.2"
+    "@marp-team/marp-cli": "^2.2.1"
   }
 }
