@@ -32,7 +32,7 @@ Ein Einstieg ins Thema
 3. Barrierefreies Internet
 4. WCAG
 5. Barrierefreie PDF
-6. Beispiele
+6. Beispiele Web
 7. BITV-Test
 8. Tools
 
@@ -649,35 +649,11 @@ Adobe Acrobat bietet die Möglichkeit an, ein Dokument automatisch zu prüfen:
 
 ---
 
-## 6. Beispiele
-
-### PDF
-
----
-
 ![bg h:90%](assets/examplepdf-inhaltsverzeichnis.png)
 
 ---
 
-![bg h:90%](assets/examplepdf-text1.png)
-
----
-
-![bg h:90%](assets/examplepdf-text2.png)
-
----
-
-![bg h:90%](assets/examplepdf-layout1.png)
-
----
-
-![bg h:90%](assets/examplepdf-layout2.png)
-
----
-
-## Beispiele
-
-### Web
+## Beispiele Web
 
 ---
 
@@ -760,14 +736,6 @@ Aber: basiert auf eigener Einschätzung
 [contrast-ratio.com](https://contrast-ratio.com/#)
 
 ![bg right height:370px](assets/contrast-ratio.png)
-
----
-
-### HTML-Validierung
-
-[Chrome Erweiterung Validity](https://chrome.google.com/webstore/detail/validity/bbicmjjbohdfglopkidebfccilipgeif)
-
-![bg right height:370px](assets/validity.png)
 
 ---
 
