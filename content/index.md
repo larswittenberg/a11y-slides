@@ -620,7 +620,7 @@ Als **Maßstab für Barrierefreiheit** gilt die EN 301 549 V2.1.2, das hat die K
 
 ---
 
-# PDF - Automatische Prüfung
+## PDF - Automatische Prüfung
 
 Adobe Acrobat bietet die Möglichkeit an, ein Dokument automatisch zu prüfen:
 
@@ -695,7 +695,7 @@ Adobe Acrobat bietet die Möglichkeit an, ein Dokument automatisch zu prüfen:
 
 ## 7. BITV Test
 
---- 
+---
 
 ## BITV Test
 
@@ -747,11 +747,13 @@ Aber: basiert auf eigener Einschätzung
 ![bg right height:370px](assets/wave.png)
 
 ---
+
 ### Bookmarklets
 
 - [BITV Test - Bookmarklets Übersicht](https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste/bookmarklets.html)
 - [tota11y - an accessibility visualization toolkit](https://khan.github.io/tota11y/)
 - [JavaScript Bookmarklets for Accessibility Testing](https://pauljadam.com/bookmarklets.html)
+
 ---
 
 ### Links
