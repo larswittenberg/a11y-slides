@@ -2,7 +2,7 @@
 
 German presentation on the topic "Accessibility
 
-[https://a11y-slides.vercel.app/](https://a11y-slides.vercel.app/)
+~~[https://a11y-slides.vercel.app/](https://a11y-slides.vercel.app/)~~
 
 Based on [Marp](https://marp.app/) and the Marp CLI v4 toolchain.
 
